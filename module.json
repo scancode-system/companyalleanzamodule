@@ -1,0 +1,13 @@
+{
+    "name": "CompanyAlleanza",
+    "alias": "companyalleanza",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\CompanyAlleanza\\Providers\\CompanyAlleanzaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

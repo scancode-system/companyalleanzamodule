@@ -1,0 +1,29 @@
+{
+    "name": "scancode-system/company-alleanza-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\CompanyAlleanza\\Providers\\CompanyAlleanzaServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\CompanyAlleanza\\": ""
+        }
+    },
+    "type": "laravel-module",
+    "require": {
+        "scancode-system/ipi-module":"^1.0"
+    }
+}
